@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { Links } from '../Data'
-import styles from './FixedNavigation.module.scss'
 import { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
+import styles from './FixedNavigation.module.scss'
 
 export const FixedNavigation = () => {
 	const [scrollPosition, setScrollPosition] = useState(0)

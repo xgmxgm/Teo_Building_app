@@ -11,7 +11,7 @@ export const CardSolution = () => {
 
 	const pVariants = {
 		hidden: {
-			x: -100,
+			x: -20,
 			opacity: 0,
 		},
 		visible: (custom: number) => ({

@@ -1,13 +1,12 @@
 .CardSolution {
 	.Content {
 		display: flex;
-		align-items: flex-start;
 		flex-wrap: wrap;
 		max-width: 1200px;
 		justify-content: center;
 
 		.Card {
-			box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
 			transition: 600ms;
 			margin: 10px;
 			max-width: 330px;

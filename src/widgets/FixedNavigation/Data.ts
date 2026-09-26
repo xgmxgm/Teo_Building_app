@@ -16,4 +16,5 @@ export const Links: ILinks[] = [
 		link: 'FixedNavigation.Certificates',
 		href: '/certificates',
 	},
+	{ link: 'FixedNavigation.Goods', href: '/goods' },
 ]

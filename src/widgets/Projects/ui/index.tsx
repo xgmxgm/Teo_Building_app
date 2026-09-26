@@ -1,9 +1,9 @@
 'use client'
 
-import { Project } from '@/shared/ui/Project'
 import { motion } from 'framer-motion'
 import styles from './Projects.module.scss'
 import { useTranslations } from 'next-intl'
+import { Project } from '@/shared/ui/Project'
 
 export const Projects = () => {
 	const t = useTranslations('Projects')

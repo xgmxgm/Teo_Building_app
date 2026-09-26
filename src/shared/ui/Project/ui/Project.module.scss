@@ -12,7 +12,8 @@
 			justify-content: center;
 			margin-top: 50px;
 			flex-wrap: wrap;
-
+			gap: 15px;
+			
 			.Project {
 				width: 480px;
 				height: 330px;
@@ -22,7 +23,6 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				filter: brightness(0.8);
-				margin: 15px;
 
 				&:hover {
 					.Text {
