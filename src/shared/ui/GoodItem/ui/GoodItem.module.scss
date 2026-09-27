@@ -1,0 +1,50 @@
+.GoodItem {
+	width: 435px;
+	padding-bottom: 16px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.Up {
+		width: 100%;
+		height: 215px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: max-content;
+			background-color: white;
+		}
+	}
+
+	.Center {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		text-align: start;
+		padding: 0 13px;
+		gap: 16px;
+	}
+
+	.Down {
+		margin-top: 16px;
+		padding: 0 13px;
+		display: flex;
+		align-items: center;
+		justify-content: start;
+	}
+
+	.Button {
+		background-color: #F6A429;
+		padding: 15px 25px;
+		font-size: 13pt;
+
+		a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+	}
+}

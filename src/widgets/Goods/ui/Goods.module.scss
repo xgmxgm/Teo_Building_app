@@ -12,7 +12,12 @@
 		}
 
 		.GoodsBlock {
-
+			display: grid;
+			// grid-template-columns: repeat(4, 435px);
+			grid-template-columns: repeat(auto-fit, minmax(280px, 435px));
+			justify-content: center;
+			padding: 50px 20px;
+			gap: 20px;
 		}
 	}
 }
