@@ -21,6 +21,10 @@ export const Navs: INav[] = [
 		link: 'Certificates',
 		href: '/certificates',
 	},
+	{
+		link: 'Goods',
+		href: '/goods',
+	},
 ]
 
 export const Contacts: IContacts[] = [

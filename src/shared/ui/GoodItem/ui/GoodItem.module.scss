@@ -22,7 +22,7 @@
 	.Center {
 		display: flex;
 		flex-direction: column;
-		align-items: start;
+		align-items: flex-start;
 		text-align: start;
 		padding: 0 13px;
 		gap: 16px;
@@ -33,7 +33,7 @@
 		padding: 0 13px;
 		display: flex;
 		align-items: center;
-		justify-content: start;
+		justify-content: flex-start;
 	}
 
 	.Button {
