@@ -1,1 +1,1 @@
-export { GoodItem } from './ui'
+export { GoodItem, MGoodItem } from './ui'
