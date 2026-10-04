@@ -29,16 +29,16 @@ export const Goods = () => {
 		visible: (custom: number) => ({
 			x: 0,
 			opacity: 1,
-			transition: { delay: custom * 0.05 },
+			transition: { delay: custom * 0.3 },
 		}),
 	}
 
 	return (
 		<motion.div
 			className={styles.Goods}
-			// initial='hidden'
-			// whileInView='visible'
-			// viewport={{ once: true, amount: 0.1 }}
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true, amount: 0.1 }}
 		>
 			<div className={styles.Content}>
 				<div className={styles.Title}>
@@ -49,8 +49,9 @@ export const Goods = () => {
 						.filter(index => index !== 11)
 						.map((index, i) => (
 							<MGoodItem
-								// variants={pVariants}
-								// custom={i}
+								style={{ overflow: 'hidden' }}
+								variants={pVariants}
+								custom={i}
 								key={index}
 								title={t(getGoodsKey(index, 'title'))}
 								description={truncateByWords(

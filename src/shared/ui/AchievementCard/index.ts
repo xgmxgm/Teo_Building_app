@@ -1,1 +1,1 @@
-export { AchievementCard, MAchievementCard } from "./ui"
+export { AchievementCard } from "./ui"

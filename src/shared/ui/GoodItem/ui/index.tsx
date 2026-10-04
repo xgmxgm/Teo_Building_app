@@ -1,7 +1,7 @@
-import { forwardRef, type FC } from 'react'
+import { forwardRef } from 'react'
+import { motion } from 'framer-motion'
 import styles from './GoodItem.module.scss'
 import { useTranslations } from 'next-intl'
-import { motion } from 'framer-motion'
 
 interface IProps {
 	title: string
