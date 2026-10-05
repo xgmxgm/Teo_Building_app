@@ -37,10 +37,17 @@
 	}
 
 	.Button {
+		transition: 200ms;
 		cursor: pointer;
 		background-color: #F6A429;
 		padding: 15px 25px;
 		font-size: 13pt;
+
+		&:hover {
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+			transform: scale(1.05);
+			border-radius: 5px;
+		}
 
 		a {
 			color: white;

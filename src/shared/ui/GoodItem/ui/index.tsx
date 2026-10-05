@@ -17,7 +17,7 @@ export const GoodItem = forwardRef<HTMLDivElement, IProps>(
 		return (
 			<div className={styles.GoodItem} ref={ref}>
 				<div className={styles.Up}>
-					<img alt={title} src={image_path} />
+					<motion.img whileHover={{scale: 1.1, borderRadius: '5px'}} alt={title} src={image_path} />
 				</div>
 				<div className={styles.Center}>
 					<h2>{title}</h2>
